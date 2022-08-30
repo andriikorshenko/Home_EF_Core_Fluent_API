@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zum5DeMfJ/rmwkcGFfKP7tXZftO+YeW+KCMDetW/+/t/gWbR+lU5jb7WpuQWKZXzLjQtfvTuawX0s66PIGIHOg==",
+  "dgSpecHash": "hWOkhsw0Hk8/jvAsrSiePSWLaWpl6kaAPuO7uiggpCR99uNwt9jqRkqLFSsxxVKs1FltJAYoPUrv5xurKyItKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\EF Core\\Home_002\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\EF Core\\Home_EF_Core_Fluent_API\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -14,7 +14,6 @@ internal class MyApplicationContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        //optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=TestTask2Db;Trusted_Connection=True;");
         var builder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json")
