@@ -15,12 +15,12 @@ Course sql = new Course { Name = "MS SQL" };
 mac.Courses.AddRange(sql, efc);
 
 andrii.Enrollments.Add(new Enrollment { Course = efc, Mark = 5 });
-tom.Enrollments.Add(new Enrollment { Course = sql, Mark = 4 });
 marry.Enrollments.Add(new Enrollment { Course = efc, Mark = 3 });
+tom.Enrollments.Add(new Enrollment { Course = sql, Mark = 4 });
 
 andrii.Courses.Add(sql);
-tom.Courses.Add(efc);
 marry.Courses.Add(sql);
+tom.Courses.Add(efc);
 
 mac.SaveChanges();
 
@@ -30,9 +30,9 @@ foreach (var course in courses)
 {
     Console.WriteLine($"Course : {course.Name}");
 
-    foreach (Student s in course.Students)
+    foreach (Student student in course.Students)
     {
-        Console.WriteLine($"Name : {s.FName + " " + s.LName}");
+        Console.WriteLine($"Name : {student.FName + " " + student.LName}");
     }
 
     Console.WriteLine(new String("-"), 5);
