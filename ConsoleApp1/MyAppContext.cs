@@ -19,8 +19,7 @@ public class MyAppContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfiguration(new UserConfiguration());
-        modelBuilder.ApplyConfiguration(new UserInfoConfiguration());
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(MyAppContext).Assembly);
     }
 }
 
